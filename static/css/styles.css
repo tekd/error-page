@@ -6762,11 +6762,56 @@ Styleguide 3.7
   .e-card a:hover {
     text-decoration: none; }
 
-.errors-page-nav {
+.error-page-nav {
   background-color: rgba(0, 0, 0, 0.74); }
 
-.errors-page-copyright {
-  background-color: rgba(0, 0, 0, 0.74); }
+.error-page-copyright {
+  background-color: rgba(0, 0, 0, 0.74);
+  display: inline-block;
+  width: 100%; }
+
+.error-page-main, .error-page-divider {
+  background-color: rgba(0, 0, 0, 0.7); }
+  .error-page-main h1, .error-page-main h2, .error-page-main h3, .error-page-main h5, .error-page-main p, .error-page-divider h1, .error-page-divider h2, .error-page-divider h3, .error-page-divider h5, .error-page-divider p {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400; }
+  .error-page-main h3, .error-page-divider h3 {
+    color: rgba(255, 255, 255, 0.9);
+    padding: 0;
+    margin: 0; }
+  .error-page-main h5, .error-page-divider h5 {
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center; }
+  .error-page-main .row, .error-page-divider .row {
+    text-align: center; }
+    .error-page-main .row a, .error-page-divider .row a {
+      padding: 0.15em 2em;
+      margin: 2em;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      font-weight: 400; }
+
+.error-page-main {
+  padding-bottom: 4em; }
+
+.error-page-tile {
+  height: 9em;
+  text-align: center;
+  font-size: 2em; }
+  .error-page-tile h2 {
+    margin-top: 4em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400; }
+  @media (max-width: 64em) {
+    .error-page-tile {
+      height: 4em; }
+      .error-page-tile h2 {
+        margin-top: 1.5em; } }
+
+.nav-footer {
+  padding: 0; }
 
 .kss-title:hover, .kss-title *:hover {
   text-decoration: none; }

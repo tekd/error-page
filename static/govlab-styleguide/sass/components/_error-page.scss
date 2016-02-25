@@ -1,11 +1,71 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700); 
 
-$errors-main-gray: rgba(0,0,0,.74);
-
-.errors-page-nav {
-  background-color: $errors-main-gray;
+@mixin error-page-font {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
-.errors-page-copyright {
-  background-color: $errors-main-gray;
+$error-main-gray: rgba(0,0,0,.74);
+
+.error-page-nav {
+  background-color: $error-main-gray;
+}
+
+.error-page-copyright {
+  background-color: $error-main-gray;
+  display: inline-block;
+  width: 100%;
+}
+
+.error-page-main, .error-page-divider {
+  background-color: $gray-70;
+  h1,h2,h3,h5,p {
+    @include error-page-font;
+  }
+  h3 {
+    color: $white-90;
+    padding: 0;
+    margin: 0;
+  }
+  h5 {
+    color: $white-40;
+    text-align: center;
+  }
+  .row {
+    text-align: center;
+    a {
+      padding: 0.15em 2em;
+      margin: 2em;
+      @include error-page-font;
+    }
+  }
+}
+
+.error-page-main {
+  padding-bottom: 4em;
+}
+
+.error-page-divider {
+
+}
+
+.error-page-tile {
+  height: 9em;
+  text-align: center;
+  font-size: 2em;
+  h2 {
+    margin-top: 4em;
+    @include error-page-font;
+  }
+  @media (max-width: 64em) {
+    height: 4em;
+    h2 {
+      margin-top: 1.5em;
+    }
+  }
+}
+
+.nav-footer {
+  padding: 0;
 }
