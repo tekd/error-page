@@ -1,0 +1,107 @@
+{
+  "_args": [
+    [
+      "govlab-styleguide",
+      "/Users/DTek/Desktop/tekd_portfolio/job search/thegovlab/code-challenges/govlab-error-challenge"
+    ]
+  ],
+  "_from": "govlab-styleguide@latest",
+  "_id": "govlab-styleguide@1.0.9",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/govlab-styleguide",
+  "_nodeVersion": "5.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-5-east.internal.npmjs.com",
+    "tmp": "tmp/govlab-styleguide-1.0.9.tgz_1454706611339_0.31452446966432035"
+  },
+  "_npmUser": {
+    "email": "info@thegovlab.org",
+    "name": "govlab"
+  },
+  "_npmVersion": "3.5.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "govlab-styleguide",
+    "raw": "govlab-styleguide",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/govlab-styleguide/-/govlab-styleguide-1.0.9.tgz",
+  "_shasum": "c5a05441921a86f1098195f4831e8b0ce0fc8d5c",
+  "_shrinkwrap": null,
+  "_spec": "govlab-styleguide",
+  "_where": "/Users/DTek/Desktop/tekd_portfolio/job search/thegovlab/code-challenges/govlab-error-challenge",
+  "bugs": {
+    "url": "https://github.com/GovLab/styleguide/issues"
+  },
+  "contributors": [
+    {
+      "email": "mark@thegovlab.org",
+      "name": "Mark Adkins-Hastings",
+      "url": "https://github.com/mocxd"
+    },
+    {
+      "email": "claudio@thegovlab.org",
+      "name": "Claudio Mendonca",
+      "url": "https://github.com/claudioccm"
+    },
+    {
+      "email": "atul@thegovlab.org",
+      "name": "Atul Varma",
+      "url": "https://github.com/toolness"
+    }
+  ],
+  "dependencies": {},
+  "description": "A styleguide / lightweight frontend framework for GovLab websites",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0",
+    "gulp-file": "^0.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.1.1",
+    "gulp-shell": "^0.5.2",
+    "kss": "^2.4.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "c5a05441921a86f1098195f4831e8b0ce0fc8d5c",
+    "tarball": "http://registry.npmjs.org/govlab-styleguide/-/govlab-styleguide-1.0.9.tgz"
+  },
+  "files": [
+    "sass",
+    "js",
+    "img"
+  ],
+  "gitHead": "d49ad8ba2ad6949eb40846e7edc13ff696c0300f",
+  "homepage": "https://github.com/GovLab/styleguide",
+  "keywords": [
+    "styleguide",
+    "kss",
+    "kss-node"
+  ],
+  "license": "CC-BY-SA-4.0",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "info@thegovlab.org",
+      "name": "govlab"
+    }
+  ],
+  "name": "govlab-styleguide",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GovLab/styleguide.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.9"
+}
