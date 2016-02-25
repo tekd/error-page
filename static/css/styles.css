@@ -6795,6 +6795,11 @@ Styleguide 3.7
 .error-page-main {
   padding-bottom: 4em; }
 
+.error-footer-tiles a:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all .3s ease;
+  text-decoration: none; }
+
 .error-page-tile {
   height: 9em;
   text-align: center;

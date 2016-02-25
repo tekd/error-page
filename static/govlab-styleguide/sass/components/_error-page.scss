@@ -50,6 +50,14 @@ $error-main-gray: rgba(0,0,0,.74);
 
 }
 
+.error-footer-tiles {
+  a:hover {
+    background-color: $gray-80;
+    transition: all .3s ease; 
+    text-decoration: none;
+  }
+}
+
 .error-page-tile {
   height: 9em;
   text-align: center;
