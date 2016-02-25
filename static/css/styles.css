@@ -9,6 +9,7 @@
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 .row {
   max-width: 75rem;
   margin-left: auto;
@@ -6760,6 +6761,12 @@ Styleguide 3.7
       box-shadow: none; }
   .e-card a:hover {
     text-decoration: none; }
+
+.errors-page-nav {
+  background-color: rgba(0, 0, 0, 0.74); }
+
+.errors-page-copyright {
+  background-color: rgba(0, 0, 0, 0.74); }
 
 .kss-title:hover, .kss-title *:hover {
   text-decoration: none; }

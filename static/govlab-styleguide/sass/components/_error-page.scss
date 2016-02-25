@@ -1,1 +1,11 @@
-_error-page.scss
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700); 
+
+$errors-main-gray: rgba(0,0,0,.74);
+
+.errors-page-nav {
+  background-color: $errors-main-gray;
+}
+
+.errors-page-copyright {
+  background-color: $errors-main-gray;
+}
