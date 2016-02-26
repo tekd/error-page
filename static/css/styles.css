@@ -6772,25 +6772,22 @@ Styleguide 3.7
 
 .error-page-main, .error-page-divider {
   background-color: rgba(0, 0, 0, 0.7); }
-  .error-page-main h1, .error-page-main h2, .error-page-main h3, .error-page-main h5, .error-page-main p, .error-page-divider h1, .error-page-divider h2, .error-page-divider h3, .error-page-divider h5, .error-page-divider p {
+  .error-page-main h1, .error-page-main h2, .error-page-main h3, .error-page-main h5, .error-page-main a, .error-page-divider h1, .error-page-divider h2, .error-page-divider h3, .error-page-divider h5, .error-page-divider a {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-weight: 400; }
+    font-weight: 400;
+    text-align: center; }
   .error-page-main h3, .error-page-divider h3 {
     color: rgba(255, 255, 255, 0.9);
     padding: 0;
     margin: 0; }
   .error-page-main h5, .error-page-divider h5 {
-    color: rgba(255, 255, 255, 0.4);
-    text-align: center; }
+    color: rgba(255, 255, 255, 0.4); }
   .error-page-main .row, .error-page-divider .row {
     text-align: center; }
     .error-page-main .row a, .error-page-divider .row a {
       padding: 0.15em 2em;
-      margin: 2em;
-      font-family: 'Montserrat', sans-serif;
-      text-transform: uppercase;
-      font-weight: 400; }
+      margin: 2em; }
 
 .error-page-main {
   padding-bottom: 4em; }
